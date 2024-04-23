@@ -1,0 +1,34 @@
+div#header-center {
+  margin: auto;
+  width: 1080px;
+}
+
+/* 자식 선택시 */
+#header-search > h1 {
+  width: 280px;
+  display: inline-block;
+}
+
+/* #header-search > h2 {
+  display: none;
+} */
+/* 꺽쇠를 빼도 적용됨 */
+#header-search fieldset {
+  width: 520px;
+  display: inline-block;
+}
+
+/* .class selector */
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+/* 자손 선택시 */
+/* #header-center h1 {
+
+} */

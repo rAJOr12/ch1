@@ -2,23 +2,37 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./naver.css" />
     <title>네이버</title>
   </head>
   <body>
-    <h1><a href="" target="#">네이버</a></h1>
-    <!--주석(comment)입니다. -->
-    <!-- 속성(attribute)입니다. -->
-    <h2>검색창</h2>
-    <fieldset>
-      <legend>검색</legend>
-      <input type="text" />
-      <button>검색</button>
-      <input type="checkbox" name="checkbox" />
-      <input type="checkbox" name="checkbox" />
-      <input type="radio" name="radio" />
-      <input type="radio" name="radio" />
+    <header>
+      <div id="header-center">
+        <!-- 가운데 정렬용 div-->
+        <div>
+          <!-- <div style="display: inline-block">네이버를 시작페이지로</div>
+          <div style="display: inline-block">쥬니어네이버</div>
+          <div style="display: inline-block">해피빈</div> -->
+          <span>네이버를 시작페이지로</span>
+          <span>쥬니어네이버</span>
+          <span>해피빈</span>
+        </div>
+        <div id="header-search">
+          <h1><a href="" target="#" class="blind">네이버</a></h1>
+          <!--주석(comment)입니다. -->
+          <!-- 속성(attribute)입니다. -->
+          <h2 class="blind">검색창</h2>
+          <fieldset>
+            <legend class="blind">검색</legend>
+            <input type="text" />
+            <button class="blind">검색</button>
+          </fieldset>
+        </div>
+      </div>
+    </header>
+    <nav>
       <ul>
         <li>메일</li>
         <li>카페</li>
@@ -28,24 +42,29 @@
         <li>네이버페이</li>
         <li>네이버TV</li>
       </ul>
-    </fieldset>
-    <h3>로그인</h3>
-    <h3>뉴스</h3>
-    <ol>
-      <li>
-        <img
-          width="50px;"
-          height="10px;"
-          src="./Asiancup.png"
-          alt="U23"
-        />아시안컵 U23
-      </li>
-      <li>황선홍호 아시안컵</li>
-      <li>리천수는 유튜버를 포기했나</li>
-    </ol>
-    <h3>법률</h3>
-    <h3>쇼핑</h3>
-    <i>네이버 로그인</i>
-    <em>네이버 로그인</em>
+    </nav>
+    <main>
+      <h3>로그인</h3>
+      <h3>뉴스</h3>
+      <ol>
+        <li>
+          <img
+            width="50px;"
+            height="10px;"
+            src="./Asiancup.png"
+            alt="U23"
+          />아시안컵 U23
+        </li>
+        <li>황선홍호 아시안컵</li>
+        <li>리천수는 유튜버를 포기했나</li>
+      </ol>
+      <h3>법률</h3>
+      <h3>쇼핑</h3>
+    </main>
+    <footer>
+      <div>공지사항</div>
+      <div>Creator</div>
+      <div>회사소개</div>
+    </footer>
   </body>
 </html>
